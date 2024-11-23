@@ -38,7 +38,7 @@ const AboutSection = () => {
 
           <div className="mb-16 flex justify-center">
             <Image
-              src={`${basePath}/images/arrrow.svg`}
+              src={`${basePath}/images/arrow.svg`}
               alt="arrow"
               width={150}
               height={150}

@@ -18,7 +18,7 @@ const HeroSection = () => {
           <h1 className="text-[#577BE6] text-3xl sm:text-4xl lg:text-5xl font-extrabold mb-4">
             A technical mind with creative finesse
           </h1>
-          <Link href={"/#about"}>
+          <Link href={"#about"}>
             <button className="px-6 py-3 bg-[#2ba1e0] text-[#ffffff] font-medium rounded shadow-lg hover:bg-[#577BE6] mt-4">
               Learn more about me
             </button>
