@@ -62,7 +62,7 @@ function PanelList() {
       employmentType: "Full-Time",
       years: "April 2024 - Present",
       description: "🧾 Tax Portals",
-      imageUrl: "/images/GoC logo.jpg",
+      imageUrl: `${basePath}/images/GoC logo.jpg`,
       tools: ["Angular", "Node.js", "TypeScript", "Tailwind CSS", "Java"],
     },
     {
@@ -71,7 +71,7 @@ function PanelList() {
       employmentType: "Internship",
       years: "May 2023 - August 2023",
       description: "👩‍💻 Internal Learning Application",
-      imageUrl: "/images/GoC logo.jpg",
+      imageUrl: `${basePath}/images/GoC logo.jpg`,
       tools: ["Angular", "Node.js", "TypeScript"],
     },
     {
@@ -80,7 +80,7 @@ function PanelList() {
       employmentType: "Internship",
       years: "September 2022 - December 2022",
       description: "💻 DevLabs",
-      imageUrl: "/images/GoC logo.jpg",
+      imageUrl: `${basePath}/images/GoC logo.jpg`,
       tools: ["Python", "Flask", "TypeScript"],
     },
     {
@@ -89,7 +89,7 @@ function PanelList() {
       employmentType: "Internship",
       years: "June 2021  - April 2022",
       description: "🚢 Marine Electronic Document Validation",
-      imageUrl: "/images/GoC logo.jpg",
+      imageUrl: `${basePath}/images/GoC logo.jpg`,
       tools: ["C#", "ASP.NET Core"],
     },
   ];

@@ -10,7 +10,7 @@ const AboutSection = () => {
 
         <div className="col-span-1 lg:col-span-4 flex justify-center lg:items-start mb-8 lg:mb-0">
           <Image
-            src="/images/laptop.svg"
+            src={`${basePath}/images/laptop.svg`}
             alt="laptop, glasses and a potted plant"
             width={350}
             height={500}
@@ -36,7 +36,7 @@ const AboutSection = () => {
 
           <div className="mb-16 flex justify-center">
             <Image
-              src="/images/arrow.svg"
+              src={`${basePath}/images/arrrow.svg`}
               alt="arrow"
               width={150}
               height={150}

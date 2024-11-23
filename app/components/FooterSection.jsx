@@ -13,7 +13,7 @@ const FooterSection = () => {
         <div className="hidden lg:block lg:col-span-2"></div>
         <div className="col-span-1 lg:col-span-4 place-self-center my-8 lg:my-12 flex justify-center lg:justify-center">
           <Image
-            src="/images/cartoon.svg"
+            src={`${basePath}/images/cartoon.svg`}
             alt="cartoon image of Sheena"
             width={350}
             height={450}
@@ -46,7 +46,7 @@ const FooterSection = () => {
             Scan for linktree
           </p>
           <Image
-            src="/images/qrcode.png"
+            src={`${basePath}/images/qrcode.png`}
             alt="qr code for linktree website"
             width={200}
             height={200}
@@ -57,7 +57,7 @@ const FooterSection = () => {
       <div className="flex justify-center gap-x-10 mt-28">
         <Link href={"https://www.linkedin.com/in/sheenaverana"} target="_blank">
           <Image
-            src="/images/linkedin.svg"
+            src={`${basePath}/images/linkedin.svg`}
             alt="linkedin logo"
             width={30}
             height={30}
@@ -66,7 +66,7 @@ const FooterSection = () => {
         </Link>
         <Link href="mailto: smrverana@gmail.com">
           <Image
-            src="/images/google.svg"
+            src={`${basePath}/images/google.svg`}
             alt="google logo"
             width={30}
             height={30}
@@ -75,7 +75,7 @@ const FooterSection = () => {
         </Link>
         <Link href={"/#about"}>
           <Image
-            src="/images/github.svg"
+            src={`${basePath}/images/github.svg`}
             alt="github logo"
             width={30}
             height={30}

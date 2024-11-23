@@ -28,7 +28,7 @@ const Navbar = () => {
       <div className="flex flex-wrap items-center justify-between mx-auto mb-4">
         <Link href={"/"}>
           <Image
-            src="/images/logo.svg"
+            src={`${basePath}/images/logo.svg`}
             alt="Sheena Verana website logo"
             width={80}
             height={80}

@@ -25,7 +25,7 @@ const HeroSection = () => {
 
         <div className="col-span-1 lg:col-span-4 flex justify-center items-center mt-8 lg:mt-0">
           <Image
-            src="/images/cartoon.svg"
+            src={`${basePath}/images/cartoon.svg`}
             alt="cartoon image of Sheena"
             width={300}
             height={450}
@@ -37,7 +37,7 @@ const HeroSection = () => {
       <div className="flex justify-center gap-x-10 mt-28">
         <Link href={"https://www.linkedin.com/in/sheenaverana"} target="_blank">
           <Image
-            src="/images/linkedin.svg"
+            src={`${basePath}/images/linkedin.svg`}
             alt="linkedin logo"
             width={30}
             height={30}
@@ -46,7 +46,7 @@ const HeroSection = () => {
         </Link>
         <Link href="mailto: smrverana@gmail.com">
           <Image
-            src="/images/google.svg"
+            src={`${basePath}/images/google.svg`}
             alt="google logo"
             width={30}
             height={30}
@@ -55,7 +55,7 @@ const HeroSection = () => {
         </Link>
         <Link href={"/#about"}>
           <Image
-            src="/images/github.svg"
+            src={`${basePath}/images/github.svg`}
             alt="github logo"
             width={30}
             height={30}
