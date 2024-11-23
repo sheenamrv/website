@@ -14,13 +14,13 @@ const navbarLinks = [
     title: "Experiences",
     path: "#experiences",
   },
-  {
-    title: "Projects",
-    path: "#projects",
-  },
+  // {
+  //   title: "Projects",
+  //   path: "#projects",
+  // },
   {
     title: "Contact",
-    path: "#contact",
+    path: "mailto: smrverana@gmail.com",
   },
 ];
 
