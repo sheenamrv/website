@@ -3,6 +3,8 @@ import React from "react";
 import Image from "next/image";
 import NavbarLink from "./NavbarLink";
 
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
+
 const navbarLinks = [
   {
     title: "About Me",

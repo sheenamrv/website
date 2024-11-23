@@ -2,6 +2,8 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
+
 const HeroSection = () => {
   return (
     <section className="mb-32 mt-14" data-aos="fade-up">

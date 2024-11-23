@@ -1,8 +1,7 @@
 import next from "next";
 import React from "react";
-import nextConfig from "@/next.config.mjs";
 
-const basePath = nextConfig.basePath;
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
 
 function Panel({
   role,

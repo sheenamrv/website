@@ -1,6 +1,8 @@
 import React from "react";
 import Image from "next/image";
 
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
+
 const AboutSection = () => {
   return (
     <section id="about" className="mt-36 mb-30">
