@@ -21,7 +21,7 @@ const Time = () => {
   }, []);
 
   return (
-    <div className=" font-medium text-lg sm:text-xl lg:text-3xl mb-3 text-[#577BE6]">
+    <div className=" font-medium text-lg sm:text-xl lg:text-3xl mb-3 text-[#ffffff]">
       {time || "Loading Ottawa time..."}
     </div>
   );

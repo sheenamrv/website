@@ -8,7 +8,7 @@ const QuoteSection = () => {
         <div></div>
 
         <div className="col-span-1 lg:col-span-8 text-center">
-          <h1 className="text-[#577BE6] text-3xl sm:text-4xl lg:text-5xl font-semibold mb-12 italic">
+          <h1 className="text-[#ffffff] text-3xl sm:text-4xl lg:text-5xl font-semibold mt-40 mb-52 italic">
             I build reliable applications with a blend of creativity and
             intuitive design. &#9889;
           </h1>

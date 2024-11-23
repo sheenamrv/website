@@ -6,8 +6,8 @@ const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
 
 const HeroSection = () => {
   return (
-    <section className="mb-32 mt-14" data-aos="fade-up">
-      <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
+    <section className="mb-32 mt-14  " data-aos="fade-up">
+      <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 mx-12">
         <div></div>
         <div></div>
 
@@ -15,11 +15,11 @@ const HeroSection = () => {
           <small className="text-[#577BE6] font-medium text-lg sm:text-xl lg:text-3xl mb-3">
             I'm Sheena Verana.
           </small>
-          <h1 className="text-[#577BE6] text-3xl sm:text-4xl lg:text-5xl font-extrabold mb-4">
+          <h1 className="text-[#ffffff] text-3xl sm:text-4xl lg:text-6xl font-extrabold mb-4">
             A technical mind with creative finesse
           </h1>
           <Link href={"#about"}>
-            <button className="px-6 py-3 bg-[#2ba1e0] text-[#ffffff] font-medium rounded shadow-lg hover:bg-[#577BE6] mt-4">
+            <button className="px-6 py-3 bg-[#DDEE84] text-[#000000] font-medium rounded shadow-lg hover:bg-[#577BE6] mt-4 transition-all hover:scale-110">
               Learn more about me
             </button>
           </Link>
@@ -29,9 +29,9 @@ const HeroSection = () => {
           <Image
             src={`${basePath}/images/cartoon.svg`}
             alt="cartoon image of Sheena"
-            width={300}
-            height={450}
-            className="w-full max-w-[350px] h-auto"
+            width={700}
+            height={700}
+            className="w-full max-w-[500px] h-auto"
           />
         </div>
       </div>

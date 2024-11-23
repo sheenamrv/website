@@ -20,8 +20,8 @@ export default function Home() {
 
   return (
     // This is where you add the pages you create ffffff 0F1524
-    <body className="bg-[#f9faf9]">
-      <main className="flex min-h-screen flex-col bg-[#f9faf9] container mx-auto py-8 px-6 sm:px-12 lg:px-16 outline-none shadow-none">
+    <body className="!bg-[#0A001A] !outline-none !shadow-none">
+      <main className="flex min-h-screen flex-col bg-[#0A001A] mx-auto py-8 px-6 sm:px-12 lg:px-16 outline-none shadow-none">
         <Navbar></Navbar>
         <HeroSection></HeroSection>
         <div className="border-t-2 border-[#577BE6]"></div>

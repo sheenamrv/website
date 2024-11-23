@@ -28,15 +28,15 @@ const AboutSection = () => {
             <h2 className="text-[#577BE6] mb-2 text-xl sm:text-2xl lg:text-3xl font-bold">
               Education
             </h2>
-            <p className="text-[#212427] text-lg sm:text-xl px-0.5 font-medium">
+            <p className="text-[#ffffff] text-lg sm:text-xl px-0.5 font-medium">
               &#10003; BASc in Computer Engineering
             </p>
-            <p className="text-[#212427] text-lg sm:text-xl px-0.5">
+            <p className="text-[#ffffff] text-lg sm:text-xl px-0.5">
               (Engineering Management & Entrepreneurship Option)
             </p>
           </div>
 
-          <div className="mb-16 flex justify-center">
+          <div className="mt-16 mb-16 flex justify-center">
             <Image
               src={`${basePath}/images/arrow.svg`}
               alt="arrow"

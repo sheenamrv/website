@@ -7,9 +7,9 @@ const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
 
 const FooterSection = () => {
   return (
-    <footer className="mt-40">
+    <footer className="mt-60">
       <div
-        className="bg-[#ffffff] rounded-[15px] drop-shadow-md grid grid-cols-1 lg:grid-cols-12 gap-8 px-6 sm:px-12 lg:px-16"
+        className="bg-[#0A001A] rounded-[15px] drop-shadow-md grid grid-cols-1 lg:grid-cols-12 gap-8 px-6 sm:px-12 lg:px-16"
         data-aos="zoom-out-up"
       >
         <div className="hidden lg:block lg:col-span-2"></div>
@@ -17,9 +17,9 @@ const FooterSection = () => {
           <Image
             src={`${basePath}/images/cartoon.svg`}
             alt="cartoon image of Sheena"
-            width={350}
+            width={450}
             height={450}
-            className="w-full max-w-[350px] mx-auto"
+            className="w-full max-w-[450px] h-auto"
           />
         </div>
 
@@ -35,7 +35,7 @@ const FooterSection = () => {
             <Time></Time>
             <br></br>
             <Link href="mailto: smrverana@gmail.com">
-              <p className="text-[#2ba1e0] font-semibold text-xl  ">
+              <p className="text-[#DDEE84] font-semibold text-xl transition-all hover:scale-110 ">
                 &quot;It&quot;s about <i>time</i> we connected!&quot;
               </p>
             </Link>
