@@ -24,12 +24,12 @@ export default function Home() {
       <main className="flex min-h-screen flex-col bg-[#0A001A] mx-auto py-8 px-6 sm:px-12 lg:px-16 outline-none shadow-none">
         <Navbar></Navbar>
         <HeroSection></HeroSection>
-        <div className="border-t-2 border-[#577BE6]"></div>
+        {/* <div className="border-t-2 border-[#577BE6]"></div> */}
         <AboutSection></AboutSection>
         <QuoteSection></QuoteSection>
         <ExperiencesSection></ExperiencesSection>
         {/* <ProjectsSection></ProjectsSection> */}
-        <div className="border-t-2 border-[#577BE6]"></div>
+        {/* <div className="border-t-2 border-[#577BE6]"></div> */}
         <FooterSection></FooterSection>
       </main>
     </body>

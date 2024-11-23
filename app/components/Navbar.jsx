@@ -55,7 +55,7 @@ const Navbar = () => {
         <div className="hidden md:block md:w-auto" id="navbar">
           <ul className="flex p-4 md:p-0 md:flex-row md:space-x-8 mt-4 md:mt-0">
             {navbarLinks.map((link, index) => (
-              <li key={index}>
+              <li key={index} className="text-[#ffffff]">
                 <NavbarLink href={link.path} title={link.title} />
               </li>
             ))}
@@ -70,7 +70,7 @@ const Navbar = () => {
         >
           <ul className="flex flex-col items-center space-y-4">
             {navbarLinks.map((link, index) => (
-              <li key={index}>
+              <li key={index} className="text-[#000000]">
                 <NavbarLink href={link.path} title={link.title} />
               </li>
             ))}
