@@ -55,7 +55,7 @@ const HeroSection = () => {
             className="transition-all hover:scale-110"
           />
         </Link>
-        <Link href={"/#about"}>
+        <Link href={"https://github.com/sheenamrv"} target="_blank">
           <Image
             src={`${basePath}/images/github.svg`}
             alt="github logo"
