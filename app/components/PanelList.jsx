@@ -59,10 +59,19 @@ function PanelList() {
   // My List of Experiences - ADD HERE
   const panelData = [
     {
+      role: "Software Developer",
+      company: "General Dynamics Mission Systems - Canada",
+      employmentType: "Full-Time",
+      years: "January 2025 - Present",
+      description: "⚙️ Test Engineering",
+      imageUrl: `${basePath}/images/gdms_c_logo.jpg`,
+      tools: ["C#", ".NET", "TestStand"],
+    },
+    {
       role: "Information Technology Developer",
       company: "Canada Revenue Agency",
       employmentType: "Full-Time",
-      years: "April 2024 - Present",
+      years: "April 2024 - January 2025",
       description: "🧾 Tax Portals",
       imageUrl: `${basePath}/images/GoC logo.jpg`,
       tools: ["Angular", "Node.js", "TypeScript", "Tailwind CSS", "Java"],
