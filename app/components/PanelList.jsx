@@ -65,7 +65,7 @@ function PanelList() {
       years: "January 2025 - September 2025",
       description: "⚙️ Test Engineering",
       imageUrl: `${basePath}/images/gdms_c_logo.jpg`,
-      tools: [""],
+      tools: [],
     },
     {
       role: "Information Technology Developer",
