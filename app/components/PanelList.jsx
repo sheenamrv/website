@@ -59,13 +59,13 @@ function PanelList() {
   // My List of Experiences - ADD HERE
   const panelData = [
     {
-      role: "Software Developer",
+      role: "Software Developer in Test",
       company: "General Dynamics Mission Systems - Canada",
       employmentType: "Full-Time",
       years: "January 2025 - September 2025",
       description: "⚙️ Test Engineering",
       imageUrl: `${basePath}/images/gdms_c_logo.jpg`,
-      tools: ["C#", ".NET", "TestStand"],
+      tools: [""],
     },
     {
       role: "Information Technology Developer",
